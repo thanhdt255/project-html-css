@@ -1,0 +1,180 @@
+.header {
+    margin-bottom: 20px;
+}
+
+.header>p {
+    font-size: 24px;
+    font-weight: 550;
+}
+
+.thongtincombo {
+    border: 1px solid rgb(209, 209, 230);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-around;
+    display: flex;
+    font-size: 14px;
+}
+
+.right1 {
+    text-align: center;
+}
+
+#giucho {
+    font-weight: bold;
+    background-color: #fd7e14;
+}
+
+#giucho:hover {
+    background-color: blue;
+}
+
+#dangki {
+    font-weight: bold;
+    color: blue;
+    border: 1px solid blue;
+}
+
+#dangki:hover {
+    color: white;
+    background-color: blue;
+}
+
+#dangki>p:hover {
+    color: white;
+}
+
+.hot {
+    color: white;
+    background-color: red;
+    font-size: 6px;
+    padding: 3px;
+    border-radius: 50%;
+}
+
+ul>li>a {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+ul>li {
+    color: blue;
+}
+
+.right1>h3 {
+    color: red;
+    font-weight: bold;
+}
+
+.right2 {
+    border-bottom: 3px solid gainsboro;
+    border-top: 3px solid gainsboro;
+    ;
+    margin-top: 20px;
+}
+
+.right3 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.right3>a {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.right4 {
+    border: 1px solid rgba(231, 224, 224, 0.87);
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.right4>p>a {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.divinput>p>input {
+    width: 100%;
+}
+
+.divinput>p {
+    margin-bottom: 10px;
+}
+
+.divinput>p>input::placeholder {
+    font-size: 13px;
+    font-style: italic;
+}
+
+#guilienhe:hover {
+    background-color: rgb(255, 157, 0);
+}
+
+.khoiul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.khoiul>ul>li {
+    font-size: 14px;
+    color: black;
+}
+
+#nav-tab {
+    justify-content: space-around;
+    background-color: #0f62ac;
+    padding: 10px;
+}
+
+#nav-tab>button {
+    border-radius: 4px;
+}
+
+#nav-tab>button:hover {
+    background-color: #ffc107;
+}
+
+.danhgia {
+    font-size: 14px;
+}
+
+.danhgiadichvu {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* vourcher */
+
+.card1 {
+    display: flex;
+    font-size: 14px;
+}
+
+@media (max-width:767px) {
+    .thongtincombo {
+        display: flex;
+        flex-direction: column;
+        padding-left: 5%;
+    }
+}
+
+@media(max-width:992px) {
+    #nav-tab {
+        display: flex;
+        flex-direction: column;
+    }
+    #nav-tab>button {
+        margin: 5px 0px 5px 0px;
+    }
+    #card1,
+    #card2,
+    #card3,
+    #card4,
+    #card5,
+    #card6 {
+        display: none;
+    }
+}
